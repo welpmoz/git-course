@@ -12,3 +12,10 @@ def suma(a, b):
 @app.route('/')
 def index():
     return "Hello world"
+
+# segunda caracteristica
+
+
+@app.route("/sum/<int:a>/<int:b>")
+def sum(a: int, b: int):
+    return a + b
