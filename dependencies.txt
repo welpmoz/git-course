@@ -1,0 +1,3 @@
+Las dependencias en este proyecto son innecesarias, porque es un proyecto
+demasiado pequeño
+
